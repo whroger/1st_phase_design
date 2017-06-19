@@ -3,13 +3,13 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Search results...</title>
+        <title>Sign Up</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<!-- Include Stylesheet -->
         <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/search_results.css">
+        <link rel="stylesheet" href="css/sign_up.css">
 		
 		<!-- Include JQuery-->
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -22,7 +22,7 @@
 		<header id="main_header">
 			<div class="container">
 				<div id="logo">
-					<img src="img/sample.png" alt="logo">
+					<img src="img/sampledelete.png" alt="logo">
 				</div>
 				<nav id="header_nav_1">
 					<ul>
@@ -37,51 +37,44 @@
 					</ul>
 				</nav>
 			</div><!-- container -->
-		</header>
+		</header><!--main_header-->
 		<div class="clearfix"></div>
 		<div class="container">
-			<section id="top_search">
-				<form>
-					<input type="search" placeholder="Please enter your departure...">
-					<input type="search" placeholder="Please enter your destination...">
-					<input type="search" placeholder="DD/MM/YY/">
-					<input type="button" value="Find">
-				</form>
-			</section>
-			<div class="clearfix"></div>
 			<aside id="sidebar">
-				<h1>Date</h1>
-				<form id="sidebar_search">
-					<input type="search" placeholder="DD/MM/YY/">
-					<input type="button" value="Find">
-				</form>
-				<h2>Check other dates:</h2>
-				<ul>
-					<li><a href="#">One day before</a></li>
-					<li><a href="#">two days before</a></li>
-					<li><a href="#">One day later</a></li>
-					<li><a href="#">two days later</a></li>
-				</ul>
+				<img src="" alt="AD">
+				<p>ad or other introduction</p>
 			</aside>
-			<div id="results">
-				<h1>2 rides available for you...</h1>
-				<article>
-					<div class="ride_info">
-						<h2>George Hortz</h2>
-						<p> 2017 CLS Coupe</p>
-						<p>$40</p>
-					</div>
-					<div class="ride_info">
-						<h2>Sheldon Cooper</h2>
-						<p>RB1000 Dura-Ace Di2 Lighweight Bike</p>
-						<p>$100</p>
-					</div>
-				</article>
-			</div><!--results-->
-			<div class="clearfix"></div>
-		</div><!--container-->
+			<section id="content">
+				<div id="sign_with_fb">
+					<input type="button" value="Sign up with facebook">
+				</div>
+				<div id="sign_with_email">
+					<form>
+						<div id="name">
+							Name: <input type="text">
+						</div>
+						<div id="gender">
+							Gender:	<input type="text"> <!-- problem hereeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee! -->
+						</div>
+						<div id="email_address">
+							Email: <input type="text">
+						</div>
+						<div id="password">
+							Password: <input type="text">
+						</div>
+						<div id="password_confirm">
+							Re-enter password: <input type="text">
+						</div>
+						<div id="submit_email">
+							<input id="submit_button" type="button" value="Sign up with email">
+						</div>
+					</form>
+				</div>
+			</section>
+		</div><!-- container -->
+		<div class="clearfix"></div>
 		<footer>
-			<nav class="footer_nav">
+				<nav class="footer_nav">
 				<div id="footer_nav_1">
 				<h1>1st bar title</h1>
 				<ul>

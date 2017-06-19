@@ -2,7 +2,7 @@
 
 html {
     color: #222;
-    font-size: 1em;
+    font-size: 13px;
     line-height: 1.4;
 }
 
@@ -55,13 +55,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   
-a{
-	text-decoration:none;   
-}
 
-#main_header{
-	background:#333;
+a{
+	text-decoration: none;
 }
 
 .container{
@@ -70,86 +66,108 @@ a{
 	overflow: hidden;
 }
 
-#branding {
-	float:left;
-	width:50%;
+#main_header{
+	background: #333;
 }
 
-#branding img{
+#logo img{
+	width: 7%;
 	position: absolute;
-	width:7%;
 	height:auto;
 }
 
-#main_nav{
-	float: right;
-	width: 50%;
-	margin-top: 7px;
-	text-align: right;
-}
-
-#main_nav a{
+#header_nav_1 a{
 	color: #fff;
 }
-
-#main_nav ul{
-	float:right;
+#header_nav_1{
+	float:left;
+	width: 50%;
+	text-align: right;
+	margin-top: 5px;
 }
 
-#main_nav li{
+#header_nav_1 ul{
+	float: right;
+}
+
+#header_nav_1 li{
 	float: left;
 	padding: 3px 5px 0 5px;
 	margin:0 15px;
-	font-size: 15px;
+	font-size: 20px;
 	text-transform: uppercase;
 	font-weight: bold;
 	list-style: none;
 	color: #fff;
 }
 
-h1{
-	text-align: center;
-	font-size: 50px;
+#header_nav_2 a{
+	color: #fff;
+}
+#header_nav_2{
+	float:right;
+	width: 50%;
+	text-align: right;
+	margin-top: 5px;
+}
+
+#header_nav_2 ul{
+	float: right;
+	margin-left: 20px;
+}
+
+#header_nav_2 li{
+	float: left;
+	padding: 3px 5px 0 5px;
+	margin:0 15px;
+	font-size: 13px;
+	text-transform: uppercase;
 	font-weight: bold;
-	margin-top: 100px;
+	list-style: none;
+	color: #fff;
 }
 
-#search form{
-	text-align:center;
+#top_search{
+	margin: 40px 100px 20px 300px;
 }
 
-#departure{
+#top_search input{
 	float: left;
-	margin-left:350px;
+	margin: 20px 40px;
 }
 
-
-#destination{
+#sidebar{
 	float: left;
-	margin-left:50px;
-}
-
-#date{
-	float: left;
-	margin-left:50px;
-}
-
-#confirmation{
-	float: left;
-	margin-top: 50px;
+	width: 30%;
 	margin-left: 50px;
 }
 
-h2{
-	text-align: center;
-	font-size: 30px;
-	font-weight: bold;
-	margin-top: 100px;
+#results{
+	float: right;
+	width: 63%;
 }
 
-#driver_form{
-	margin: 40px auto;
-	text-align: center;
+#footer_nav_1{
+	float:left;
+	margin:50px 20px 10px 100px;
+}
+
+#footer_nav_2{
+	float:left;
+	margin:50px 20px 10px 100px;
+}
+
+#footer_nav_3{
+	float:left;
+	margin:50px 20px 10px 100px;
+}
+
+#left_foot_note{
+	float:left;
+}
+
+#right_foot_note{
+	float: right;
 }
 
 
